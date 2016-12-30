@@ -14,6 +14,8 @@
 		3F09E5561E16261100E88243 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E5541E16261100E88243 /* LaunchScreen.storyboard */; };
 		3F09E5611E16261200E88243 /* TippingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E5601E16261200E88243 /* TippingTests.swift */; };
 		3F09E56C1E16261200E88243 /* TippingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E56B1E16261200E88243 /* TippingUITests.swift */; };
+		3F09E57A1E16336300E88243 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F09E5791E16336300E88243 /* SettingViewController.swift */; };
+		3F09E57C1E16382E00E88243 /* Tipping in Resources */ = {isa = PBXBuildFile; fileRef = 3F09E57B1E16382E00E88243 /* Tipping */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		3F09E5671E16261200E88243 /* TippingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F09E56B1E16261200E88243 /* TippingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingUITests.swift; sourceTree = "<group>"; };
 		3F09E56D1E16261200E88243 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F09E5791E16336300E88243 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		3F09E57B1E16382E00E88243 /* Tipping */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Tipping; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				3F09E54B1E16261100E88243 /* AppDelegate.swift */,
 				3F09E54D1E16261100E88243 /* ViewController.swift */,
 				3F09E54F1E16261100E88243 /* Main.storyboard */,
+				3F09E57B1E16382E00E88243 /* Tipping */,
+				3F09E5791E16336300E88243 /* SettingViewController.swift */,
 				3F09E5521E16261100E88243 /* Assets.xcassets */,
 				3F09E5541E16261100E88243 /* LaunchScreen.storyboard */,
 				3F09E5571E16261100E88243 /* Info.plist */,
@@ -231,6 +237,7 @@
 			files = (
 				3F09E5561E16261100E88243 /* LaunchScreen.storyboard in Resources */,
 				3F09E5531E16261100E88243 /* Assets.xcassets in Resources */,
+				3F09E57C1E16382E00E88243 /* Tipping in Resources */,
 				3F09E5511E16261100E88243 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +265,7 @@
 			files = (
 				3F09E54E1E16261100E88243 /* ViewController.swift in Sources */,
 				3F09E54C1E16261100E88243 /* AppDelegate.swift in Sources */,
+				3F09E57A1E16336300E88243 /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
